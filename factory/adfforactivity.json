@@ -1,0 +1,9 @@
+{
+	"name": "adfforactivity",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4e48b968-4053-4b41-b74a-214cec9858f1",
+		"tenantId": "e5c63248-25eb-479d-902c-2bffb6cc0fa7"
+	}
+}
