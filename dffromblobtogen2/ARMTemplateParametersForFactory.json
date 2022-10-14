@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dffromblobtogen2"
+		},
+		"ls_forgen2quality_accountKey": {
+			"value": ""
+		},
+		"ls_forhotblob_connectionString": {
+			"value": ""
+		},
+		"ls_forhotgen2_accountKey": {
+			"value": ""
+		},
+		"ls_forgen2quality_properties_typeProperties_url": {
+			"value": "https://gen2forquality.dfs.core.windows.net/"
+		},
+		"ls_forhotgen2_properties_typeProperties_url": {
+			"value": "https://gen2forquality.dfs.core.windows.net/"
+		}
+	}
+}
