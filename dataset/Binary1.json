@@ -1,0 +1,26 @@
+{
+	"name": "Binary1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_forhotblob",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"sourcevalues": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": {
+					"value": "@dataset().sourcevalues",
+					"type": "Expression"
+				},
+				"container": "behot"
+			}
+		}
+	}
+}

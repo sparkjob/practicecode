@@ -1,0 +1,26 @@
+{
+	"name": "Binary2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_forgen2quality",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"sinkvalues": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().sinkvalues",
+					"type": "Expression"
+				},
+				"fileSystem": "quality"
+			}
+		}
+	}
+}
