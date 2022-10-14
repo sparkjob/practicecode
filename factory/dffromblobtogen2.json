@@ -1,0 +1,9 @@
+{
+	"name": "dffromblobtogen2",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "03f3a525-d870-4909-b544-d2b2e60ec281",
+		"tenantId": "e5c63248-25eb-479d-902c-2bffb6cc0fa7"
+	}
+}
